@@ -77,8 +77,6 @@ public class PlayerController : MonoBehaviour {
         /*Gizmos.DrawWireSphere(
             new Vector2(transform.position.x, transform.position.y) + Vector2.down * checkGroundDist,
             checkGroundRadius);*/
-
-
     }
 
 }

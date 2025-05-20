@@ -26,6 +26,8 @@ public class PlayerAttack : MonoBehaviour {
     public Animator anim;
     public string animTrig = "attack";
 
+    public LayerMask lm;
+
     public StarterAssetsInputs inputs;
 
 
@@ -84,7 +86,7 @@ public class PlayerAttack : MonoBehaviour {
         if (col.GetComponent<DamageReceiver>()) {
             if (damageId == col.GetComponent<DamageReceiver>().damageReceiveId) {
                 Vector2 dir = col.transform.position - attackInitPos.position;
-                RaycastHit2D hit = Physics2D.Raycast(attackInitPos.position, dir, attackDist);
+                RaycastHit2D hit = Physics2D.Raycast(attackInitPos.position, dir, attackDist, lm);
                 if (hit.collider != null) {
                     if (hit.transform.GetComponent<DamageReceiver>()) {
                         if (damageId == hit.transform.GetComponent<DamageReceiver>().damageReceiveId) {
@@ -94,6 +96,17 @@ public class PlayerAttack : MonoBehaviour {
                             attackCol.enabled = false;
                         }
                     }
+                }
+            }
+        } else if (col.GetComponent<CircuirBase>()) {
+            Vector2 dir = col.transform.position - attackInitPos.position;
+            RaycastHit2D hit = Physics2D.Raycast(attackInitPos.position, dir, attackDist, lm);
+            if (hit.collider != null) {
+                if (hit.transform.GetComponent<CircuirBase>()) {
+                    Debug.Log("CircuitAttacked_" + attackPowLast);
+                    hit.transform.GetComponent<CircuirBase>().Receive(attackPowLast);
+                    attackPowLast = 0;
+                    attackCol.enabled = false;
                 }
             }
         }

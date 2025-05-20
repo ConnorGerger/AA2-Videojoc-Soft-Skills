@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 03144387ec704de4186a386cf2769697
+guid: 05f304b4751e8c34fb917943a199de1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7886472481271328885
-    second: Free-Pixel-Art-Fantasy-2D-Battlegrounds7_0
+      213: -2762554606109416519
+    second: aluminium-brushed-metal-texture-2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Free-Pixel-Art-Fantasy-2D-Battlegrounds7_0
+      name: aluminium-brushed-metal-texture-2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1259
-        height: 839
+        width: 3500
+        height: 3500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8fcde6001f9d8290800000000000000
-      internalID: -7886472481271328885
+      spriteID: 9b3aa3ee83f69a9d0800000000000000
+      internalID: -2762554606109416519
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Free-Pixel-Art-Fantasy-2D-Battlegrounds7_0: -7886472481271328885
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

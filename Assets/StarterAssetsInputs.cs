@@ -18,6 +18,7 @@ namespace StarterAssets {
         public event Action<bool> Charge = delegate { };
         public event Action Interact = delegate { };
         public event Action Exit = delegate { };
+        public event Action ResetLvl = delegate { };
 
 
 #if ENABLE_INPUT_SYSTEM
@@ -47,7 +48,10 @@ namespace StarterAssets {
 
         public void OnExit(InputValue value){
             Exit();
-        } 
+        }
+        public void OnReset(InputValue value) {
+            ResetLvl();
+        }
 #endif
 
     }

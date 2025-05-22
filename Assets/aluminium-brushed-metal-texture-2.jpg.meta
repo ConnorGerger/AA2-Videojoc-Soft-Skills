@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aluminium-brushed-metal-texture-2_0: -2762554606109416519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

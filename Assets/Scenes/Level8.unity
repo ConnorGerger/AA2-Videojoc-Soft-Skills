@@ -659,7 +659,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -668,6 +668,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &330482955
 Transform:
   m_ObjectHideFlags: 0
@@ -1014,7 +1015,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -1023,6 +1024,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &389955981
 Transform:
   m_ObjectHideFlags: 0
@@ -1562,7 +1564,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -1571,6 +1573,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &448687387
 Transform:
   m_ObjectHideFlags: 0
@@ -2238,7 +2241,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -2247,6 +2250,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &1017991810
 Transform:
   m_ObjectHideFlags: 0
@@ -2780,7 +2784,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -2789,6 +2793,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &1075701165
 Transform:
   m_ObjectHideFlags: 0
@@ -4395,7 +4400,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -4404,6 +4409,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &2035960913
 Transform:
   m_ObjectHideFlags: 0
@@ -4573,7 +4579,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -4582,6 +4588,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &2056114593
 Transform:
   m_ObjectHideFlags: 0
@@ -4801,7 +4808,7 @@ MonoBehaviour:
   receiveEmitCd: 1
   canEmit: 1
   receiveAmountMin: 0.5
-  emitSpeed: 5
+  emitSpeed: 2
   baseRadius: 0
   emitRadius: 2
   currentEmitAmount: 0
@@ -4810,6 +4817,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!50 &2439674121133677469
 Rigidbody2D:
   serializedVersion: 5

@@ -668,6 +668,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &330482955
 Transform:
   m_ObjectHideFlags: 0
@@ -1023,6 +1024,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &389955981
 Transform:
   m_ObjectHideFlags: 0
@@ -1571,6 +1573,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &448687387
 Transform:
   m_ObjectHideFlags: 0
@@ -1904,6 +1907,63 @@ Transform:
   - {fileID: 1646874982}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &830758253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3375072403775152489, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_Name
+      value: MusicManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0026686913
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472530045053306429, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7c80b50f2fed0924eb721e4a22312d0e, type: 3}
 --- !u!1 &905979479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,6 +2307,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &1017991810
 Transform:
   m_ObjectHideFlags: 0
@@ -2789,6 +2850,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &1075701165
 Transform:
   m_ObjectHideFlags: 0
@@ -4404,6 +4466,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &2035960913
 Transform:
   m_ObjectHideFlags: 0
@@ -4582,6 +4645,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!4 &2056114593
 Transform:
   m_ObjectHideFlags: 0
@@ -4810,6 +4874,7 @@ MonoBehaviour:
   destroyTime: 1
   animTrig: attackQuick
   circleC: {fileID: 0}
+  alreadyConduit: []
 --- !u!50 &2439674121133677469
 Rigidbody2D:
   serializedVersion: 5
@@ -5298,3 +5363,4 @@ SceneRoots:
   - {fileID: 1786561352}
   - {fileID: 905979482}
   - {fileID: 353503472}
+  - {fileID: 830758253}
